@@ -13,15 +13,15 @@ BS4 (pip install bs4)
 datetime (pip install datetime)
 
 <h2>Instructions</h2>
-<ol>
-1. Download the folder and place it in your Desktop
-2. Input your order info in the following format in the orderinfo.txt file:
-  2a. format: email:ordernumber
-3. main.py should be untouched
-4. Open Terminal/CMD
-5. Install all the requirements
-6. Type cd Desktop -> cd sizeCo-orderChecker-master -> python main.py
-  </ol>
+
+<ol>1. Download the folder and place it in your Desktop</ol>
+<ol>2. Input your order info in the following format in the orderinfo.txt file:</ol>
+  <ol>2a. format: email:ordernumber</ol>
+<ol>3. main.py should be untouched</ol>
+<ol>4. Open Terminal/CMD</ol>
+<ol>5. Install all the requirements</ol>
+<ol>6. Type cd Desktop -> cd sizeCo-orderChecker-master -> python main.py</ol>
+ 
 
 
 
