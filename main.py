@@ -31,9 +31,7 @@ def order_checker():
                     'referer': 'https://www.size.co.uk/track-my-order/',
                     'accept-encoding': 'gzip, deflate, br',
                     'accept-language': 'en-US,en;q=0.9',
-                    # 'cookie': 'ak_bmsc=36A56F8C1157B194D8CEB507D1C0E1A417D46C1E6D7F0000D5F1445BEFE2801E~plwGWb0mfd0F4i7wRkErtKiDTCChPMHul9emboMKqJj7v73R6qvPeFqlcCXWlIqQO9aooW6Oac+ccVq29t8f2GQV0BGosMlKHdI8V3cjNwDgn+RLqOzCvbFpnD19JDLrtiVVENwc+DYmyv4Nu/+VcnLBpe/MR7y4xO5l5cJQSiY/O0+AK1/+u81HGeNLOcvgFx/L2BcgMi9hZXupTc8Y38fQjFTp5tuX3TulNlDl0YmXI=; language=en; AKA_A2=A; session.present=1; session.ID=EB7BDEFFC0644BEC80857C44BD4CFDC7; bm_mi=C3E0A7EA1635CC414308EE01E48D544A~0eX/HUCP33Va1LPGX8ReejiYkdaVX6LuvCk+xQN/hF3lurJUe6xmBvnIzzAq/dXHtAAtie4CvuxymYQ/U7qbrztu88Ffl/Z+ISGgnIMKvb28ByhunUuJ6HD4lmj4pBEE47HVvHYH24cAkmKCTpRdgHIFnIhjdtHLavCQTaugkOzsx0lSMuO92tTnPbH+8ILhnMpE7dH0L5pKcDmBA5yeqw0PnSLs49EdyTWrNEhagIJD6kgWIiaQEgpAoE4hVQaXrmXiDPyWGcpikUbpdM3lHvzDtE0lXY4k2IJVDnEo5uM=; bm_sv=05B5F71155E14BF26F1665A58DAFD73A~tliDbA0Ollz5wgobz0w97Sym20M5tDLvi+IV+1n4K+yCWhFIhyghhfH39aon9TPzQZ4qUSCrvaokcuWPaWfCFdltaLPPQO5Cm1gP//XQqKu9NYtNeYpjrm+MSEc8ALlA58df+t/AEQeIazVHklJAR3Ex/TA//KSoYwcFiWfptfI=',
                     'if-none-match': 'ee4a1278e0f74b4981e0abee4f207a3c',
-                    'if-modified-since': 'Tue, 10 Jul 2018 17:12:55 GMT',
                     }
                 
                 params = (
@@ -53,13 +51,11 @@ def order_checker():
                 #while True:
                 try:
                     newOrder = orderStatus.split(start)[1].split(end)[0]
-                    #print newOrder
                     orderStatus1 = datetime.now().strftime('%H:%M:%S | ') + 'Status of your purchase ['+str(customerInfo)+'] is: ' + str(newOrder)
                     print orderStatus1
                     #break
                 except IndexError:
                     orderStatus2 = datetime.now().strftime('%H:%M:%S | ') + 'Status of your purchase ['+str(customerInfo)+'] is: CANCELLED!'
-                    #orderStatus2 = datetime.now().strftime('%H:%M:%S | ') + 'Status of your purchase is: CANCELLED!'
                     print orderStatus2
 
                 infoLine = infoLine + 1
