@@ -72,7 +72,6 @@ print '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 print datetime.now().strftime('%H:%M:%S | ') + 'Size? Previews Order Checker by @donjawn(s)'
 print '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 print
-print
 userAnswer = raw_input(datetime.now().strftime('%H:%M:%S | ') + 'Would you like to check your Previews orders? Enter Y or N: ').lower()
 if userAnswer == 'y':
     order_checker()
