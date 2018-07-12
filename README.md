@@ -1,7 +1,8 @@
 # sizeCo-orderChecker
 Check the status of all your orders placed on the sizeCo?UK site or Size? Previews mobile app!
 
-Follow me on Twitter [https://www.twitter.com/donjawns]
+
+<a href="http://www.twitter.com/donjawn">follow me on twitter</a> 
 
 
 <h2>Requirements</h2>
