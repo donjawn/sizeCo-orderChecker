@@ -2,7 +2,7 @@
 Check the status of all your orders placed on the sizeCo?UK site or Size? Previews mobile app!
 
 
-<a href="http://www.twitter.com/donjawn">follow me on twitter</a> 
+<a href="http://www.twitter.com/donjawns">@donjawns</a> 
 
 
 <h2>Requirements</h2>
