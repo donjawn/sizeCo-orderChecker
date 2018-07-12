@@ -36,7 +36,6 @@ def order_checker():
                 
                 params = (
                     ('type', 'userAction'),
-                    ('data', 'eyJjaGFubmVsIjoid2ViX3dpZGdldCIsInVzZXJBY3Rpb24iOnsiY2F0ZWdvcnkiOiJhcGkiLCJhY3Rpb24iOiJoaWRlIiwibGFiZWwiOm51bGwsInZhbHVlIjpudWxsfSwiYnVpZCI6IjM0MjZlZDhhOGQ4MzFiZTFjZDViNjVhY2ZjNjdkNmQ1Iiwic3VpZCI6IjE0MTI5MGNhMzY4YTUxN2FhMDdjZDM2NDBhZDdjYzMxIiwidmVyc2lvbiI6ImUyMWE5NzE3MyIsInRpbWVzdGFtcCI6IjIwMTgtMDctMTBUMTg6MTQ6MzMuMDUxWiIsInVybCI6Imh0dHBzOi8vd3d3LnNpemUuY28udWsvdHJhY2stbXktb3JkZXIvP29yZGVySUQ9ODQ1OTMxMjAmZW1haWw9Zm9vdHBhdHJvbCU0MHJhbWlyZXptYXJrLmNvbSZwb3N0Y29kZT0ifQ=='),
                     )
                 response = requests.get(main_url, headers=headers, params=params)
                 session = requests.Session()
